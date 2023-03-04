@@ -1,0 +1,48 @@
+.loginBtn {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.loginBtn div {
+    margin-left: 10px;
+    margin-top: -2px;
+}
+
+img {
+    width: 100px;
+}
+
+.nav-sec {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+}
+
+.menu-list li {
+    padding: 10px;
+}
+
+.menu-area {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-list2 {
+    display: flex;
+    justify-content:end;
+    margin-top: -50px;
+    margin-right: 100px;
+}
+
+.menu-list2 input {
+    width: 120px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
