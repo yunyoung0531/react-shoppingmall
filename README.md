@@ -1,5 +1,5 @@
-# react-ShoppingMall
-리액트로 쇼핑몰 만들기
+# react-shoppingmall
+## 리액트로 쇼핑몰 만들기
 
 
 * 라우터 세팅
