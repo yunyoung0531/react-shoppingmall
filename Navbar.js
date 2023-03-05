@@ -2,10 +2,12 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-regular-svg-icons'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faShirt } from '@fortawesome/free-solid-svg-icons'
+import 'bootstrap/dist/css/bootstrap.css';
 
 // 크게 세 개의 navbar로 나눔
 const Navbar = () => {
-    const menuList = ['여성', 'Divided', '남성', '신생아/유아', '아동', 'H&M Home', 'Sale', '지속 가능성']
+    const menuList = ['여성', 'Divided', '남성', '신생아/유아', '아동', 'YY Home', 'Sale', '지속 가능성']
     return (
     <div>
         <div>  
@@ -15,7 +17,9 @@ const Navbar = () => {
             </div>
         </div>
         <div className='nav-sec'>
-            <img src='https://blog.kakaocdn.net/dn/Yt80C/btqDeJAYUBo/JQbTuukRladq2AUOeqgiEK/img.jpg'/>
+            {/* <img src='https://blog.kakaocdn.net/dn/Yt80C/btqDeJAYUBo/JQbTuukRladq2AUOeqgiEK/img.jpg'/> */}
+            <FontAwesomeIcon icon={faShirt} size='2x'/>
+            <div>YY market</div>
         </div>
         <div>
             <div className='menu-area'>

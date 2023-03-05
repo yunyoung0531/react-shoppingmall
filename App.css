@@ -46,3 +46,16 @@ img {
     border-right: none;
     outline: none;
 }
+
+.nav-sec div {
+    margin: 10px;
+}
+
+.product-card img{
+    width: 180px;
+    height: 300px;
+}
+
+.product-card:hover img {
+    transform: scale(1.07);
+}
