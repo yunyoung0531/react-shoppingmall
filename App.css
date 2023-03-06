@@ -69,3 +69,7 @@ img {
     justify-content: center;
     margin: 100px;
 }
+
+.ProductCard {
+    padding: 30px;
+}
