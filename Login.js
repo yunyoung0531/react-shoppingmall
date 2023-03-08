@@ -33,6 +33,8 @@ const Login = ({setAuthenticate}) => {
       <Button variant="dark" type="submit">
         로그인
       </Button>
+    {/* 로그아웃 버튼 */}
+    <Button variant="dark" className='logoutBtn'>로그아웃</Button>
     </Form>
     </Container>
     </div>
@@ -40,3 +42,8 @@ const Login = ({setAuthenticate}) => {
 }
 
 export default Login
+
+                // {/* 로그아웃(메인) 화면으로 */}
+                // <div className='' onClick={main}>
+                
+                // </div>
