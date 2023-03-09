@@ -1,6 +1,8 @@
 import React from 'react'
 import {Form, Button, Container} from "react-bootstrap"
 import { useNavigate } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser } from '@fortawesome/free-regular-svg-icons'
 
 const Login = ({setAuthenticate}) => {
   const navigate = useNavigate()
@@ -33,8 +35,6 @@ const Login = ({setAuthenticate}) => {
       <Button variant="dark" type="submit">
         로그인
       </Button>
-    {/* 로그아웃 버튼 */}
-    <Button variant="dark" className='logoutBtn'>로그아웃</Button>
     </Form>
     </Container>
     </div>

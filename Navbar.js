@@ -1,3 +1,5 @@
+//Navbar.js
+
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-regular-svg-icons'
@@ -36,8 +38,13 @@ const Navbar = () => {
                 <div>로그인</div>
             </div>
 
-
+        {/*로그아웃 화면으로*/}
+            <div>
+            
+            </div>
         </div>
+
+
         <div className='nav-sec'>
             {/* <img src='https://blog.kakaocdn.net/dn/Yt80C/btqDeJAYUBo/JQbTuukRladq2AUOeqgiEK/img.jpg'/> */}
             {/* <FontAwesomeIcon icon={faShirt} size='2x'/> */}
